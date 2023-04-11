@@ -11,7 +11,7 @@ nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('wordnet')
 
-with open('Dataset\chatbot dataset.txt', 'r', encoding='utf8', errors='ignore') as file:
+with open('chatbot dataset copy.txt', 'r', encoding='utf8', errors='ignore') as file:
     dataset = file.read()
 
 # Here, the Next step is tokenize our text dataset.
